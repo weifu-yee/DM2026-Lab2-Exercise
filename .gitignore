@@ -2,6 +2,7 @@
 __pycache__/
 .ipynb_checkpoints/
 .venv/
+.venv-kaggle-gpu/
 .DS_Store
 *.pyc
 .jupyter/
@@ -23,3 +24,7 @@ DM2026-Lab2-Master-Grading-Reference.ipynb
 # so nothing a student runs can put a session log in a public repository. Keep
 # this entry on any future sync from Lab 1.
 session_logs/
+
+# Local competition inputs, predictions, and experiment caches.
+data/kaggle/
+outputs/kaggle/
